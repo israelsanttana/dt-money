@@ -1,0 +1,124 @@
+{
+    "transactions": [
+        {
+            "id": 1,
+            "description": "Desenvolvimento de Site",
+            "type": "income",
+            "category": "Vendas",
+            "price": 1800,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 2,
+            "description": "Pagamento de Conta de Energia",
+            "type": "outcome",
+            "category": "Serviços Públicos",
+            "price": 300,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 3,
+            "description": "Freelancer de Design Gráfico",
+            "type": "income",
+            "category": "Vendas",
+            "price": 1200,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 4,
+            "description": "Compra de Equipamentos de Informática",
+            "type": "outcome",
+            "category": "Tecnologia",
+            "price": 1500,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 5,
+            "description": "Consultoria em Marketing Digital",
+            "type": "income",
+            "category": "Vendas",
+            "price": 1500,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 6,
+            "description": "Honorários Advocatícios",
+            "type": "outcome",
+            "category": "Jurídico",
+            "price": 1000,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 7,
+            "description": "Desenvolvimento de Aplicativo Mobile",
+            "type": "income",
+            "category": "Vendas",
+            "price": 2500,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 8,
+            "description": "Compra de Material de Escritório",
+            "type": "outcome",
+            "category": "Administrativo",
+            "price": 200,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 9,
+            "description": "Manutenção de Servidores",
+            "type": "income",
+            "category": "Infraestrutura",
+            "price": 800,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 10,
+            "description": "Pagamento de Aluguel",
+            "type": "outcome",
+            "category": "Despesas Fixas",
+            "price": 1200,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 11,
+            "description": "Compra de Software de Gestão",
+            "type": "income",
+            "category": "Tecnologia",
+            "price": 500,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 12,
+            "description": "Recebimento de Pagamento de Cliente",
+            "type": "outcome",
+            "category": "Vendas",
+            "price": 2000,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 13,
+            "description": "Investimento em Ações",
+            "type": "income",
+            "category": "Investimentos",
+            "price": 3000,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 14,
+            "description": "Pagamento de Salários",
+            "type": "outcome",
+            "category": "Despesas Fixas",
+            "price": 3500,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        },
+        {
+            "id": 15,
+            "description": "Venda de Equipamento Antigo",
+            "type": "income",
+            "category": "Vendas",
+            "price": 1000,
+            "createdAt": "2024-03-07T22:40:48.650Z"
+        }
+    ]
+}
