@@ -5,15 +5,6 @@ import { TransactionContext } from "../../contexts/TransactionsContext";
 import { SearchForm } from "./SearchForm";
 import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles";
 
-
-interface Transaction {
-    category: string;
-    createdAt: string;
-    description: string;
-    id: number;
-    price: number;
-    type: 'income' | 'outcome';
-}
 export function Transactions() {
 
     const { transactions } = useContext(TransactionContext)
