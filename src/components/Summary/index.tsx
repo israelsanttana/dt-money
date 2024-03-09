@@ -4,6 +4,8 @@ import { SummaryCard, SummaryContainer } from "./styles";
 
 export function Summary() {
 
+    //const { transactions } = useContext(TransactionContext)
+
     return (
         <SummaryContainer>
             <SummaryCard>
