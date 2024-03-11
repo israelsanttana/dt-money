@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
 import { TransactionContext } from "../../contexts/TransactionsContext";
+import { dataFormatter, priceFormatter } from "../../ultils/formatter";
 import { SearchForm } from "./SearchForm";
 import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles";
 
@@ -18,8 +19,6 @@ export function Transactions() {
                 <SearchForm />
                 <TransactionsTable>
                     <tbody>
-
-
                         {transactions.length === 0 ? <p>Carregando...</p> : transactions.map(item => {
                             return (
 
@@ -27,11 +26,16 @@ export function Transactions() {
                                     <td width="50%">{item.description}</td>
                                     <td>
                                         <PriceHighlight variant={item.type}>
-                                            {item.price}
+                                            <p>{item.type === 'outcome' && '-'}
+                                                {item.type === 'income' && '+'}
+                                            </p>
+                                            <p>
+                                                {priceFormatter.format(item.price)}
+                                            </p>
                                         </PriceHighlight>
                                     </td>
                                     <td>{item.category}</td>
-                                    <td>{item.createdAt}</td>
+                                    <td>{dataFormatter.format(new Date(item.createdAt))}</td>
                                 </tr>
                             )
                         })}
